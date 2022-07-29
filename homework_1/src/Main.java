@@ -16,7 +16,7 @@ public class Main {
         } else {
             System.out.println("Error");
         }
-        System.out.println("x+y-3=" + (x+y-3));
+        System.out.println("x*y-3=" + (x*y-3));
     }
     static int resolveSquare(){
         int a = 0;
