@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Main {
-    static void HW() {
+   static void HW() {
         int x = 0;
         int y = 0;
         Scanner sc = new Scanner(System.in);
