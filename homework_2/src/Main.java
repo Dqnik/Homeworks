@@ -28,5 +28,33 @@ public class Main {
     }
     public static void main(String[] args) {
         HW2(0, 0);
+
+        System.out.println();
+
+        int y = 3;
+        String x = "";
+
+        switch (y){
+            case 1:
+                x = "One";
+                System.out.println(x);
+                break;
+            case 2:
+                x = "Two";
+                System.out.println(x);
+            case 3:
+                x = "Three";
+                System.out.println(x);
+                break;
+            case 4:
+                x = "Four";
+                System.out.println(x);
+            case 5:
+                x = "Five";
+                System.out.println(x);
+                break;
+            default:
+                System.out.println("Error");
+        }
     }
 }
