@@ -42,6 +42,7 @@ public class Main {
             case 2:
                 x = "Two";
                 System.out.println(x);
+                break;
             case 3:
                 x = "Three";
                 System.out.println(x);
@@ -49,12 +50,14 @@ public class Main {
             case 4:
                 x = "Four";
                 System.out.println(x);
+                break;
             case 5:
                 x = "Five";
                 System.out.println(x);
                 break;
             default:
                 System.out.println("Error");
+                break;
         }
     }
 }
