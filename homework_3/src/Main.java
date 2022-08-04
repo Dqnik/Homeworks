@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int x = 0;
-        int[] y = new int[100];
+        int[] y = new int[50];
         System.out.println("Enter x");
         if(sc.hasNextInt()){
             x = sc.nextInt();
@@ -21,12 +21,12 @@ public class Main {
                 y[i] = i;
             }
         }
-        for (int i = 1; i < 100; i+=2) {
-            if (i == 99)
-                System.out.println(y[i]);
-            else {
-                System.out.print(y[i] + ",");
-            }
+        for (int i = 0; i < 50; i++) {
+            y[i] = i*2 + 1;
+        }
+
+        for (int a: y) {
+            System.out.println(a);
         }
     }
 }
